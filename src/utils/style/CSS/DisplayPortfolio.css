@@ -1,0 +1,13 @@
+#before_portfolio
+{
+    animation: 3s ease-in 1s both transition;
+}
+
+@keyframes transition
+{
+    from { transform: translateY(0px) }
+    to   
+    { 
+        transform: translateY(-100%);
+    }  
+}
