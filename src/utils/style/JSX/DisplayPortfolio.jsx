@@ -1,13 +1,15 @@
 import styled from "styled-components"
+import paintBlast from "../../../images/paint-blast.jpg"
 
 export const StyledNav = styled.nav`
     text-align: end;
     margin: 25px 50px 0px 0px;
 `
 export const StyledMain = styled.main`
-    background: url("https://images.unsplash.com/photo-1665400595593-476670c1f0f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80") no-repeat center;
+    background: url(${paintBlast}) no-repeat center;
+    background-size: cover;
     width: 100%;
-    height: 92vh;
+    height: 100vh;
     color: white;
 
     @keyframes display {
@@ -21,7 +23,7 @@ export const StyledMain = styled.main`
             transform: scale(1)
         }
     }
-    animation: 2s ease-in-out both display;
+    animation: 2s ease-in-out display;
 `
 
 export const StyledLink = styled.a`
@@ -35,6 +37,7 @@ export const StyledLink = styled.a`
     letter-spacing: 4px;
     overflow: hidden;
     margin-right: 20px;
+    font-weight: 600;
     
     &:hover
     {
@@ -159,6 +162,7 @@ export const StyledWelcomeText = styled.div`
     transform-box:fill-box;
     justify-content: center;
     margin: 0px -345px;
+    padding: 66px 0px;
 `
 
 export const StyledLetter = styled.span`
@@ -301,5 +305,12 @@ export const StyledLetter = styled.span`
     }
 `
 
+export const StyledBitmoji = styled.img`
+    position: absolute;
+    top: 201px;
+    width: 27%;
+    left: 36%;
+`
+    
 
 

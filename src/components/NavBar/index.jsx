@@ -1,9 +1,9 @@
 import { StyledNav, StyledLink, StyledFrameLink } from "../../utils/style/JSX/DisplayPortfolio"
 
-export function MainNav (){
+export function MainNav (){    
     return(
         <StyledNav>
-            <StyledLink href="#">
+            <StyledLink href="#accueil">
                 <StyledFrameLink />
                 <StyledFrameLink />
                 <StyledFrameLink />
@@ -11,7 +11,7 @@ export function MainNav (){
                 Accueil
             </StyledLink>
 
-            <StyledLink href="#">
+            <StyledLink href="#presentation">
                 <StyledFrameLink />
                 <StyledFrameLink />
                 <StyledFrameLink />
@@ -19,7 +19,7 @@ export function MainNav (){
                 Présentation
             </StyledLink> 
 
-            <StyledLink href="#">
+            <StyledLink href="#projets">
                 <StyledFrameLink />
                 <StyledFrameLink />
                 <StyledFrameLink />
@@ -27,7 +27,7 @@ export function MainNav (){
                 Projets
             </StyledLink>
 
-            <StyledLink href="#">
+            <StyledLink href="#contact">
                 <StyledFrameLink />
                 <StyledFrameLink />
                 <StyledFrameLink />

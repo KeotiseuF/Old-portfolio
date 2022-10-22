@@ -1,12 +1,12 @@
 import React from "react";
 import MainNav from "../NavBar";
-import { StyledMain, StyledWelcomeText, StyledLetter } from "../../utils/style/JSX/DisplayPortfolio"
+import { StyledMain, StyledWelcomeText, StyledLetter, StyledBitmoji } from "../../utils/style/JSX/DisplayPortfolio"
+import miniCurt from "../../images/Mini-Curt.svg"
 
-export function DisplayPortfolio () {
-  
+function DisplayPortfolio () {
     return(
       <React.StrictMode>
-        <StyledMain>
+        <StyledMain id="accueil">
             <header><MainNav /></header>
             <StyledWelcomeText>
                 <span>
@@ -93,6 +93,7 @@ export function DisplayPortfolio () {
                     </StyledLetter>
                 </span>
             </StyledWelcomeText>
+            <StyledBitmoji src={miniCurt} alt="bitmoji_Curtis" />
         </StyledMain>
       </React.StrictMode>
     )
