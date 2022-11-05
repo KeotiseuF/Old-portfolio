@@ -1,0 +1,33 @@
+.card 
+{
+    width: 349px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46%;
+}  
+
+.frame_img
+{
+    height: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame_img > img
+{
+    width: 50%;
+}
+
+#img_Kanap
+{
+    transform: scale(0.7);
+}
+
+#img_Portfolio
+{
+    transform: scale(1.5);
+}

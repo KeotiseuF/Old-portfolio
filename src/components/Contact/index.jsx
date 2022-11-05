@@ -1,7 +1,9 @@
+import { StyledSection } from "../../utils/style/JSX/Contact"
+
 function Contact () {
     
     return(
-        <section id="contact"></section>
+        <StyledSection id="contact"></StyledSection>
     )
 }
 

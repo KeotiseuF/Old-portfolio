@@ -1,6 +1,12 @@
-import { StyledNav, StyledLink, StyledFrameLink } from "../../utils/style/JSX/DisplayPortfolio"
+import { StyledLink, StyledFrameLink } from "../../utils/style/JSX/DisplayPortfolio"
+import styled from "styled-components"
 
-export function MainNav (){    
+const StyledNav = styled.nav`
+    margin: 25px 50px 0px 0px;
+`
+
+export function MainNav (){   
+
     return(
         <StyledNav>
             <StyledLink href="#accueil">
