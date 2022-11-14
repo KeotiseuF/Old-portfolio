@@ -22,8 +22,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-<<<<<<< HEAD
 Mail.jsx
-=======
-/Mail.jsx
->>>>>>> 0cc46b4513cf1e26f324efd1d9b141e18a03bfef
+
