@@ -3,7 +3,7 @@ import MainNav from "../NavBar";
 import { StyledSection, StyledWelcomeText, StyledLetter, StyledBitmoji } from "../../utils/style/JSX/DisplayPortfolio"
 import miniCurt from "../../images/Mini-Curt.svg"
 
-function DisplayPortfolio () {
+function DisplayPortfolio() {
     return(
       <React.StrictMode>
         <header><MainNav /></header>

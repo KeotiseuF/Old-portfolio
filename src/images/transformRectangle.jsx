@@ -24,7 +24,7 @@ function TransformRectangle (i)
     'data-path-to',
     'M 12.401 49.077 h 347.396 c -0.5405 110.9762 0.1585 160.6015 0 283.396 H 12.401 C 12.5362 212.4743 12.5362 150.2679 12.401 49.1954 z'
   );
-  transformRectanglePath.setAttribute('style', 'fill:white;stroke:#000;stroke-width:.604456;stroke-opacity:1');
+  transformRectanglePath.setAttribute('style', 'fill:white;stroke:#000;stroke-width:0;stroke-opacity:1');
   transformRectanglePath.classList.add('transform_rectangle');
   transformRectanglePath.classList.add('path-anim');
 

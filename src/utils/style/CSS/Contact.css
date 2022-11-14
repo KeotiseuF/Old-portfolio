@@ -1,0 +1,8 @@
+#contact .under_section 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 65vh;
+}

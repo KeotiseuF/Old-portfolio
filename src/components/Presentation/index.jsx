@@ -17,7 +17,7 @@ function Presentation () {
       
       function makeClouds() {
         gsap.set(".cloud", {
-          top: "random(0, 500)"
+          top: "random(0, 400)"
         });
       
         gsap.to(".cloud", {

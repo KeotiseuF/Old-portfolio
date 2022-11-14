@@ -10,13 +10,11 @@ function Portfolio () {
   
   useEffect(() => {
     const displayArrow = document.getElementById("display_arrow");
-    
-    
-      displayArrow.addEventListener("click", () =>{
-        setTimeout(() => {
-        setDisplayPortfolio(true)}, "4260")
-      });
-    
+
+    displayArrow.addEventListener("click", () =>{
+      setTimeout(() => {
+      setDisplayPortfolio(true)}, "4260")
+    });
   }, [])
   
 
