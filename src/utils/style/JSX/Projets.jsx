@@ -1,9 +1,9 @@
 import styled from "styled-components"
-import purpleBackground from "../../../images/purple_background.jpg"
+import tree from "../../../images/tree.svg"
 
 export const StyledSection = styled.section`
-    background: url(${purpleBackground}) no-repeat center;
-    background-size: cover;
+    background: url(${tree}) no-repeat center, linear-gradient(to bottom, rgba(0,255,255,1) 0%, rgba(0,0,0,1) 100%);
+    background-size: 1684px 100%;
 `
 
 export const StyledFrameProjets = styled.div`

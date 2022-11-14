@@ -4,8 +4,6 @@ import paintBlast from "../../../images/paint-blast.jpg"
 export const StyledSection = styled.section`
     background: url(${paintBlast}) no-repeat center;
     background-size: cover;
-    width: 100%;
-    height: 100vh;
     color: white;
     overflow: hidden;
 `
@@ -161,11 +159,6 @@ export const StyledLetter = styled.span`
                 
                 transform: translate(100%)
             }
-
-            to
-            { 
-                
-            }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
     }
@@ -177,11 +170,6 @@ export const StyledLetter = styled.span`
             from{
                 
                 transform: translate(100%)
-            }
-
-            to
-            { 
-                
             }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
@@ -195,11 +183,6 @@ export const StyledLetter = styled.span`
                 
                 transform: translate(100%)
             }
-
-            to
-            { 
-                
-            }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
     }
@@ -211,11 +194,6 @@ export const StyledLetter = styled.span`
             from{
                 
                 transform: translate(100%)
-            }
-
-            to
-            { 
-                
             }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
@@ -229,11 +207,6 @@ export const StyledLetter = styled.span`
                 
                 transform: translate(100%)
             }
-
-            to
-            { 
-                
-            }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
     }
@@ -245,11 +218,6 @@ export const StyledLetter = styled.span`
             from{
                 
                 transform: translate(100%)
-            }
-
-            to
-            { 
-                
             }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
@@ -263,11 +231,6 @@ export const StyledLetter = styled.span`
                 
                 transform: translate(100%)
             }
-
-            to
-            { 
-                
-            }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
     }
@@ -279,11 +242,6 @@ export const StyledLetter = styled.span`
             from{
                 
                 transform: translate(100%)
-            }
-
-            to
-            { 
-                
             }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
@@ -297,11 +255,6 @@ export const StyledLetter = styled.span`
                 
                 transform: translate(100%)
             }
-
-            to
-            { 
-                
-            }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
     }
@@ -313,11 +266,6 @@ export const StyledLetter = styled.span`
             from{
                 
                 transform: translate(100%)
-            }
-
-            to
-            { 
-                
             }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
@@ -331,11 +279,6 @@ export const StyledLetter = styled.span`
                 
                 transform: translate(100%)
             }
-
-            to
-            { 
-                
-            }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
     }
@@ -347,11 +290,6 @@ export const StyledLetter = styled.span`
             from{
                 
                 transform: translate(100%)
-            }
-
-            to
-            { 
-                
             }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
@@ -365,11 +303,6 @@ export const StyledLetter = styled.span`
                 
                 transform: translate(100%)
             }
-
-            to
-            { 
-                
-            }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
     }
@@ -381,11 +314,6 @@ export const StyledLetter = styled.span`
             from{
                 
                 transform: translate(100%)
-            }
-
-            to
-            { 
-                
             }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
@@ -399,11 +327,6 @@ export const StyledLetter = styled.span`
                 
                 transform: translate(100%)
             }
-
-            to
-            { 
-                
-            }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
     }
@@ -415,11 +338,6 @@ export const StyledLetter = styled.span`
             from{
                 
                 transform: translate(100%)
-            }
-
-            to
-            { 
-                
             }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
@@ -433,11 +351,6 @@ export const StyledLetter = styled.span`
                 
                 transform: translate(100%)
             }
-
-            to
-            { 
-                
-            }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
     }
@@ -449,11 +362,6 @@ export const StyledLetter = styled.span`
             from{
                 
                 transform: translate(100%)
-            }
-
-            to
-            { 
-                
             }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
@@ -467,11 +375,6 @@ export const StyledLetter = styled.span`
                 
                 transform: translate(100%)
             }
-
-            to
-            { 
-                
-            }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
     }
@@ -483,11 +386,6 @@ export const StyledLetter = styled.span`
             from{
                 
                 transform: translate(100%)
-            }
-
-            to
-            { 
-                
             }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
@@ -501,11 +399,6 @@ export const StyledLetter = styled.span`
                 
                 transform: translate(100%)
             }
-
-            to
-            { 
-                
-            }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
     }
@@ -517,11 +410,6 @@ export const StyledLetter = styled.span`
             from{
                 
                 transform: translate(100%)
-            }
-
-            to
-            { 
-                
             }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
@@ -535,11 +423,6 @@ export const StyledLetter = styled.span`
                 
                 transform: translate(100%)
             }
-
-            to
-            { 
-                
-            }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
     }
@@ -551,11 +434,6 @@ export const StyledLetter = styled.span`
             from{
                 
                 transform: translate(100%)
-            }
-
-            to
-            { 
-                
             }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
@@ -569,11 +447,6 @@ export const StyledLetter = styled.span`
                 
                 transform: translate(100%)
             }
-
-            to
-            { 
-                
-            }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
     }
@@ -586,11 +459,6 @@ export const StyledLetter = styled.span`
                 
                 transform: translate(100%)
             }
-
-            to
-            { 
-                
-            }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;
     }
@@ -602,11 +470,6 @@ export const StyledLetter = styled.span`
             from{
                 
                 transform: translate(100%)
-            }
-
-            to
-            { 
-                
             }
         } 
         animation: 5s ease-in-out 1s  both  displayLetter;

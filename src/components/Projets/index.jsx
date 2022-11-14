@@ -6,7 +6,7 @@ import ImgRectangle from "../../images/transformRectangle"
 import "../../utils/style/CSS/Cards.css"
 import { StyledSection, StyledFrameProjets } from "../../utils/style/JSX/Projets"
 import Lenis from '@studio-freight/lenis'
-
+import { Transition } from "../Transitions"
 
 function Projets () {
     const animeProjets = useRef();
@@ -34,7 +34,7 @@ function Projets () {
             const imgCard = document.createElement("img")
             imgCard.setAttribute("src", DatasProjets[i].url_image)
             imgCard.setAttribute("alt", DatasProjets[i].alt)
-            imgCard.setAttribute("id", "img_" + DatasProjets[i].title)
+            imgCard.setAttribute("id", "img_" + DatasProjets[i].id)
             frameImg.appendChild(imgCard)
 
             const container = document.createElement("div")
@@ -45,28 +45,35 @@ function Projets () {
             title.innerHTML = DatasProjets[i].title
             container.appendChild(title)
 
-            const description = document.createElement("p")
-            description.innerHTML = DatasProjets[i].description
-            container.appendChild(description)
+            const lienDescription = document.createElement("p")
+            lienDescription.innerHTML = "Description :"
+            container.appendChild(lienDescription)
+
+            const description = document.createElement("a")
+            description.setAttribute("href", "#")
+            description.innerHTML = " ici"
+            description.setAttribute("id", `description_${DatasProjets[i].id}`)
+            lienDescription.appendChild(description)
+
+            Transition(i)
             
             const lienGithub = document.createElement("p")
-            lienGithub.innerHTML = "Lien Github :"
+            lienGithub.innerHTML = "Github :"
             container.appendChild(lienGithub)
             
             const github = document.createElement("a")
             github.setAttribute("href", DatasProjets[i].lien_github)
-            github.innerHTML = "ici"
-            container.appendChild(github)
+            github.innerHTML = " ici"
+            lienGithub.appendChild(github)
             
             const lienProjet = document.createElement("p")
-            lienProjet.innerHTML = "Lien projet :"
+            lienProjet.innerHTML = "Url projet :"
             container.appendChild(lienProjet)
 
             const projet = document.createElement("a")
             projet.setAttribute("href", DatasProjets[i].lien_site)
-            projet.innerHTML = "ici"
-            container.appendChild(projet)
-
+            projet.innerHTML = " ici"
+            lienProjet.appendChild(projet)
         } 
           
         gsap.registerPlugin(ScrollTrigger);
@@ -95,12 +102,13 @@ function Projets () {
           paths.forEach(el => {
             const svgEl = el.closest('svg');
             const pathTo = el.dataset.pathTo;
-            console.log(pathTo)
+            
             gsap.timeline({
                 scrollTrigger: {
                     trigger: svgEl,
-                    scrub: true,
-                    markers: true
+                    start: "bottom bottom", // when the top of the trigger hits the top of the viewport
+                    end: "+=300",
+                    scrub: true,                    
                 }
             })
             .to(".transform_rectangle", {
