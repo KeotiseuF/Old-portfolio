@@ -483,5 +483,10 @@ export const StyledBitmoji = styled.img`
     height: 118%;
 `
     
-
+export const StyledWarning = styled.p `
+    position: absolute;
+    left: 5%;
+    top: 102px;
+    font-size: 126%;
+`
 

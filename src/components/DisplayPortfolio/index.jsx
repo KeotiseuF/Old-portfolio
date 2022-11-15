@@ -1,6 +1,6 @@
 import React from "react";
 import MainNav from "../NavBar";
-import { StyledSection, StyledWelcomeText, StyledLetter, StyledBitmoji } from "../../utils/style/JSX/DisplayPortfolio"
+import { StyledSection, StyledWelcomeText, StyledLetter, StyledBitmoji, StyledWarning } from "../../utils/style/JSX/DisplayPortfolio"
 import miniCurt from "../../images/Mini-Curt.svg"
 
 function DisplayPortfolio() {
@@ -8,6 +8,7 @@ function DisplayPortfolio() {
       <React.StrictMode>
         <header><MainNav /></header>
         <StyledSection id="accueil">
+            <StyledWarning>⚠️ Portfolio en construction mise à jour faite le : 15/11/2022 ⚠️</StyledWarning>
             <StyledWelcomeText>
                 <span>
                     <StyledLetter>
