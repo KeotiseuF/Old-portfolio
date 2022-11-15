@@ -79,7 +79,7 @@ const DatasProjets = [
                       &emsp;&emsp;- fetch pour faire des requêtes au back,<br/>
                       &emsp;&emsp;- affichage d'un produit spécifique grâce à "URLSearchParams",<br/>
                       &emsp;&emsp;- sauvegarder les données dans le localStorage...`,
-        lien_site: "https://keotiseuf.github.io/P5-Dev-Web-Kanap-master/",
+        lien_site: "https://kanap.curtis-dev.eu",
         lien_github: "https://github.com/KeotiseuF/P5-Dev-Web-Kanap-master",
     },
 
