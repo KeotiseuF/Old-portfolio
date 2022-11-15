@@ -1,14 +1,9 @@
 import { StyledLink, StyledFrameLink } from "../../utils/style/JSX/DisplayPortfolio"
-import styled from "styled-components"
-
-const StyledNav = styled.nav`
-    margin: 25px 50px 0px 0px;
-`
 
 export function MainNav (){   
 
     return(
-        <StyledNav>
+        <nav>
             <StyledLink href="#accueil">
                 <StyledFrameLink />
                 <StyledFrameLink />
@@ -40,7 +35,7 @@ export function MainNav (){
                 <StyledFrameLink />
                 Contact
             </StyledLink>
-        </StyledNav> 
+        </nav> 
     )
 }
 

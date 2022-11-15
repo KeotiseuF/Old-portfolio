@@ -113,7 +113,7 @@ const DatasProjets = [
 
                       &emsp;&emsp;- utilisation de MERN stack,<br/>
                       &emsp;&emsp;- mettre en place des hooks,<br/>
-                      &emsp;&emsp;- respecter certaine régles de l'OWASP,<br/>
+                      &emsp;&emsp;- respecter certaine règles de l'OWASP,<br/>
                       &emsp;&emsp;- création d'une API REST,<br/>
                       &emsp;&emsp;- mise en place d'une page de connexion,<br/>
                       &emsp;&emsp;- données de connexion sécurisées...`,

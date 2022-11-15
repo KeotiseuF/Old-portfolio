@@ -21,10 +21,11 @@ img
 
 header
 {
-    position: fixed;
-    left: 49%;
+    position: absolute;
+    right: 0%;
     z-index: 99;
     animation: 2s ease-in-out display;
+    margin-top: 25px;
 }
 
 h2

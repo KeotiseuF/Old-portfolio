@@ -6,6 +6,9 @@ export const StyledSection = styled.section`
     background-size: cover;
     color: white;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `
 
 export const StyledLink = styled.a`
@@ -136,14 +139,11 @@ export const StyledFrameLink = styled.span`
     }
 `
 export const StyledWelcomeText = styled.div`
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: 650px;
+    width: 650px;
+    height: 93%;
     font: normal 48px/1 'Special Elite';
     transform-box: fill-box;
-    justify-content: center;
-    margin: 0px -345px;
+    margin: 0px -255px;
 `
 
 export const StyledLetter = styled.span`
@@ -478,9 +478,9 @@ export const StyledLetter = styled.span`
 
 export const StyledBitmoji = styled.img`
     position: absolute;
-    top: 201px;
-    width: 27%;
-    left: 36%;
+    top: 185px;
+    width: 416px;
+    height: 118%;
 `
     
 

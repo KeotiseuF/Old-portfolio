@@ -1,7 +1,6 @@
 import { StyledSection } from "../../utils/style/JSX/Contact"
 import "../../utils/style/CSS/Contact.css"
 import { StyledFrameText, StyledText, StyledMailTo } from "../../utils/style/JSX/Contact"
-import Mail from "../../utils/datas/Mail"
 
 function Contact () {
     return(
@@ -13,7 +12,7 @@ function Contact () {
                         Si mon travail vous plaît n'hésitez, pas à me contacter. 
                     </StyledText>
                 </StyledFrameText>
-                <StyledMailTo href={Mail}>Envoyer Email</StyledMailTo>
+                <StyledMailTo href="mailto:f.curtis.dev@gmail.com">Envoyer Email</StyledMailTo>
             </div>
         </StyledSection>
     )
