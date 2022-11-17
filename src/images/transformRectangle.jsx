@@ -11,9 +11,9 @@ function TransformRectangle (i)
   );
 
 
-  iconSvg.setAttribute('width', '1423.917');
+  iconSvg.setAttribute('width', '400');
   iconSvg.setAttribute('viewBox', '0 0 376.745 337.349');
-  iconSvg.setAttribute('height', '1275.021');
+  iconSvg.setAttribute('height', '320');
   
 
   transformRectanglePath.setAttribute(

@@ -9,6 +9,7 @@ export const StyledSection = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
 `
 
 export const StyledLink = styled.a`

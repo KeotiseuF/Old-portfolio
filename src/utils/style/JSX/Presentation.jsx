@@ -6,7 +6,7 @@ export const StyledSection = styled.section`
 
 export const StyledPresentation = styled.p`
     font-size: x-large; 
-    width: 50%;
+    width: 667px;
     text-align: justify;
     position: relative;
     z-index: 3;

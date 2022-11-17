@@ -12,7 +12,7 @@ function Contact () {
                         Si mon travail vous plaît n'hésitez, pas à me contacter. 
                     </StyledText>
                 </StyledFrameText>
-                <StyledMailTo href="mailto:f.curtis.dev@gmail.com">Envoyer Email</StyledMailTo>
+                <StyledMailTo href="mailto:f.curtis.dev@gmail.com">Envoyer email</StyledMailTo>
             </div>
         </StyledSection>
     )
