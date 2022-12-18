@@ -39,7 +39,7 @@ section
 {
     width: 100%;
     animation: 2s ease-in-out display;
-    padding: 55px 39px;
+    padding: 55px 2%;
 }
 
 a
@@ -103,4 +103,17 @@ a:focus
     color: #060606;
     width: 268px;
     height: 30%;
+} 
+
+@media (max-width: 987px) 
+{
+    #frame_clouds 
+    {
+        margin: -55px -4.7%;  
+    }
+
+    #frame_clouds 
+    {
+        margin: -55px -4.7%;  
+    }
 }

@@ -5,6 +5,7 @@ import kanap from "../../images/kanap.svg"
 import piiquante from "../../images/piiquante.png"
 import groupomania from "../../images/groupomania.png"
 import portfolio from "../../images/logo.svg"
+import angular from "../../images/Test_Angular.jpg"
 
 const DatasProjets = [
     {
@@ -138,6 +139,24 @@ const DatasProjets = [
                       &emsp;&emsp;- mise en ligne du portfolio...`,
         lien_site: "https://keotiseuf.github.io/Portfolio/",
         lien_github: "https://github.com/KeotiseuF/Portfolio",
+    },
+
+    {
+        id: "projet_7",
+        title: "Test Angular",
+        url_image: angular,
+        alt: "angular",
+        description: `Test Angular est un site où j'ai mis en place les bases d'Angular. 
+                      Pour pouvoir m'exercer, j'ai pu mettre en place : <br/> <br/>
+
+                      &emsp;&emsp;- mettre en place de la structure d'Angular,<br/>
+                      &emsp;&emsp;- mise en place de directives,<br/>
+                      &emsp;&emsp;- création de composants,<br/>
+                      &emsp;&emsp;- mise en place du routage,<br/>
+                      &emsp;&emsp;- typage des variables,<br/>
+                      &emsp;&emsp;- création d'un observable et y souscrire...`,
+        lien_site: "https://keotiseuf.github.io/Test_Angular/",
+        lien_github: "https://github.com/KeotiseuF/Test_Angular",
     },
 ]
 

@@ -21,7 +21,6 @@ export function Transition(i) {
 
         setTimeout(() => {
             document.querySelectorAll("section").forEach(k => k.setAttribute("style", "display:none"));
-            document.querySelector("header").setAttribute("style", "display:none")
             Description(i)
         }, "2500")
     })
@@ -51,8 +50,13 @@ export function BackTransition() {
         
         setTimeout(() => {
             article.remove()
-            document.querySelectorAll("section").forEach(k => k.setAttribute("style", "display:block"));
-            document.querySelector("header").setAttribute("style", "display:block")
+            document.querySelectorAll("section").forEach(k => {
+                k.setAttribute("style", "display:block");
+            if(k.id === "accueil")
+            {
+                k.setAttribute("style", "display:flex");
+            }            
+}                                                            );
             containerCircles.remove()
         }, "2500")
         })
