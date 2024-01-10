@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Old-portfolio/static/css/main.80d5ed1e.css",
+    "main.js": "/Old-portfolio/static/js/main.131885e5.js",
+    "static/css/307.758b14fa.chunk.css": "/Old-portfolio/static/css/307.758b14fa.chunk.css",
+    "static/js/307.2aa2b918.chunk.js": "/Old-portfolio/static/js/307.2aa2b918.chunk.js",
+    "static/css/447.bed5fc6a.chunk.css": "/Old-portfolio/static/css/447.bed5fc6a.chunk.css",
+    "static/js/447.89911c7c.chunk.js": "/Old-portfolio/static/js/447.89911c7c.chunk.js",
+    "static/media/paint-blast.jpg": "/Old-portfolio/static/media/paint-blast.6fd77d19e3e195cd8d6d.jpg",
+    "static/media/cloud_1.png": "/Old-portfolio/static/media/cloud_1.0b2212152af62cf96f6f.png",
+    "static/media/main-img.jpg": "/Old-portfolio/static/media/main-img.d5581deaede9045c030f.jpg",
+    "static/media/Mini-Curt.svg": "/Old-portfolio/static/media/Mini-Curt.92f77f7e7269e1328136bec8bc524454.svg",
+    "static/media/Mini-Curt_2.svg": "/Old-portfolio/static/media/Mini-Curt_2.a0710b3c7543e85d54fa8d0591d3ff0e.svg",
+    "static/media/tree.svg": "/Old-portfolio/static/media/tree.cec694880f58288771ded7ee7aef830f.svg",
+    "static/media/paint-man.jpg": "/Old-portfolio/static/media/paint-man.88dbe81726fcc437b392.jpg",
+    "static/media/cloud_2.png": "/Old-portfolio/static/media/cloud_2.5e7777f18bb716872bbb.png",
+    "static/media/cloud_4.png": "/Old-portfolio/static/media/cloud_4.29817d52422ecb8fbe6b.png",
+    "static/media/cloud_5.png": "/Old-portfolio/static/media/cloud_5.c8328d3c45fab19f082f.png",
+    "static/media/cloud_3.png": "/Old-portfolio/static/media/cloud_3.4dfe078d4724a5d7c310.png",
+    "static/media/Test_Angular.jpg": "/Old-portfolio/static/media/Test_Angular.fae64396e6f77fe9f75c.jpg",
+    "static/media/logo.svg": "/Old-portfolio/static/media/logo.0066e9ae428c43752ab17f3d4eb47780.svg",
+    "static/media/piiquante.png": "/Old-portfolio/static/media/piiquante.4fdd17a7bdbe323abcdd.png",
+    "static/media/agence-la-panthere.svg": "/Old-portfolio/static/media/agence-la-panthere.3b7d24c94fedfaffbf2cbfea8d5644fe.svg",
+    "static/media/groupomania.png": "/Old-portfolio/static/media/groupomania.e44e3642ed0ba08e9dda.png",
+    "static/media/kanap.svg": "/Old-portfolio/static/media/kanap.6903a35582590d067d7235bd2737348d.svg",
+    "static/media/back_arrow.svg": "/Old-portfolio/static/media/back_arrow.6aeef5ec44c02739c71e489e427b8ce8.svg",
+    "index.html": "/Old-portfolio/index.html",
+    "main.80d5ed1e.css.map": "/Old-portfolio/static/css/main.80d5ed1e.css.map",
+    "main.131885e5.js.map": "/Old-portfolio/static/js/main.131885e5.js.map",
+    "307.758b14fa.chunk.css.map": "/Old-portfolio/static/css/307.758b14fa.chunk.css.map",
+    "307.2aa2b918.chunk.js.map": "/Old-portfolio/static/js/307.2aa2b918.chunk.js.map",
+    "447.bed5fc6a.chunk.css.map": "/Old-portfolio/static/css/447.bed5fc6a.chunk.css.map",
+    "447.89911c7c.chunk.js.map": "/Old-portfolio/static/js/447.89911c7c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80d5ed1e.css",
+    "static/js/main.131885e5.js"
+  ]
+}
